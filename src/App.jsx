@@ -1,26 +1,27 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './conponents/Navbar'
-import Home from './conponents/Home'
-import About from './conponents/About'
-import Skills from './conponents/Skills'
-import Contact from './conponents/Contact'
-import Projects from './conponents/Projects'
-import Footer from './conponents/Footer'
+// import Home from './pages/Home'
+// import About from './pages/About.jsx'
+import { Home, About } from './pages/index.js'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    // <div>
+    //   <Navbar/>
+    //   <Home />
+    //   <About />
+    // </div>
+    
+    <BrowserRouter>
       <Navbar />
-      <Home  />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+      {/* <About /> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
