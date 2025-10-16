@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Sun, Moon } from 'lucide-react'
-// import { NavLink } from 'react-router-dom'
+// import { NavLink, Link } from 'react-router-dom'
 // NavLink
 
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
         <nav className=' top-0 left-0 w-full z-50 bg-white/60 dark:bg-[#0B061A]/96 backdrop-blur-md shadow-md '>
             <div className='max-w-7xl mx-auto px-4 py-3 flex justify-between items-center '>
                 {/* Logo */}
-                <a href="#">
+                <a href="/">
                     <div className='flex items-center space-x-2'>
                         <div className='h-10 w-10 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-lg'>
                             AK
@@ -36,14 +36,14 @@ export default function Navbar() {
                 <ul className='hidden md:flex space-x-7 text-gray-900 dark:text-gray-100 '>
 
                     <li>
-                        <a href="#home" className='relative group inline-block ' >
+                        <a href="/" className='relative group inline-block ' >
                             Home
                             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-orange-500 transition-all duration-200 group-hover:w-full"></span>
                         </a>
 
                     </li>
                     <li>
-                        <a href="#about" className='relative group inline-block '
+                        <a href="/about" className='relative group inline-block '
                         >
                             About
                             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-orange-500 transition-all duration-200 group-hover:w-full"></span>
@@ -51,7 +51,7 @@ export default function Navbar() {
 
                     </li>
                     <li>
-                        <a href="#skills" className='relative group inline-block '
+                        <a href="/skills" className='relative group inline-block '
                         >
                             Skills
                             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-orange-500 transition-all duration-200 group-hover:w-full"></span>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
                     </li>
                     <li>
-                        <a href="#projects" className='relative group inline-block '
+                        <a href="/projects" className='relative group inline-block '
                         >
                             Projects
                             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-orange-500 transition-all duration-200 group-hover:w-full"></span>
@@ -67,7 +67,7 @@ export default function Navbar() {
 
                     </li>
                     <li>
-                        <a href="#contact" className='relative group inline-block '
+                        <a href="/contact" className='relative group inline-block '
                         >
                             Contact
                             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-orange-500 transition-all duration-200 group-hover:w-full"></span>
