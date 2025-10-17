@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 export default function Home() {
-    const navigate = useNavigate();
+     const navigate = useNavigate();
 
     const handleDownload = () => {
         // The path to your CV file in the public folder
@@ -19,8 +19,11 @@ export default function Home() {
     };
 
     const handleContact = () => {
-        navigate('#contact');
+        navigate('/contact');
     }
+
+    
+
 
     return (
 
@@ -45,8 +48,9 @@ export default function Home() {
 
                 <div className="flex space-x-6">
 
-                    <Botton children='Download CV' onClick={handleDownload} />
-                    <Botton children='Contact' onClick={handleContact} />
+                    <Botton children='Download CV' onClick={handleDownload} className='h-12'/>
+                    <Botton children='Contact' onClick={handleContact} className='h-12' />
+                    {/* <a href="/contact"><Botton children='Contact' /></a> */}
                 </div>
             </motion.div>
 
@@ -65,15 +69,15 @@ export default function Home() {
             </motion.div>
 
             {/* Scroll Down Button */}
-            <motion.a
-                href="#about"
+            {/* <motion.a
+                href="/about"
                 className="absolute bottom-10 right-10 px-6 py-3 bg-[#E64A3C] text-white font-semibold rounded-xl hover:bg-[#c53e31] transition duration-300 shadow-md hidden md:block"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1 }}
             >
                 Scroll Down
-            </motion.a>
+            </motion.a> */}
 
 
         </section>

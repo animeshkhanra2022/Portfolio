@@ -24,7 +24,7 @@ export default function About() {
           {/* sm:grid sm:grid-cols-2 gap-2 */}
           <div className='flex flex-col items-center gap-4 sm:items-stretch md:flex-row md:justify-around  '>
             {/* Education */}
-            <div className="relative flex-1 bg-gray-500/10 dark:bg-black/50 backdrop-blur-lg p-6 rounded-2xl shadow-lg w-[400px]">
+            <div className="relative flex-1 bg-[#E8DAF0] dark:bg-black/50 backdrop-blur-lg p-6 rounded-2xl shadow-lg w-[400px]">
               <h3 className=" flex flex-col text-xl font-semibold items-center gap-2 text-purple-700 dark:text-purple-300 mb-4">
                 <FaGraduationCap />
                 <p>Education</p>
@@ -61,7 +61,7 @@ export default function About() {
               </ul>
             </div>
             {/* Experience */}
-            <div className="relative flex-1 bg-gray-500/10 dark:bg-black/50 backdrop-blur-lg p-6 rounded-2xl shadow-lg w-[400px]">
+            <div className="relative flex-1 bg-[#E8DAF0] dark:bg-black/50 backdrop-blur-lg p-6 rounded-2xl shadow-lg w-[400px]">
               <h3 className="text-xl font-semibold flex flex-col items-center gap-2 text-purple-700 dark:text-purple-300 mb-4">
                 <FaLaptopCode />
                 <p>Experience</p>
