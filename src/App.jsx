@@ -10,14 +10,6 @@ import Contact from './pages/Contact.jsx';
 function App() {
 
   return (
-    // <div>
-    //   <Navbar/>
-    //   <Home />
-    //   <About />
-    //   <Skills />
-    //   <Projects />
-    //   <Contact />
-    // </div>
     
     <BrowserRouter>
       <Navbar />
