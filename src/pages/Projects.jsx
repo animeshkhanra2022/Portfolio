@@ -6,7 +6,7 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio built with React and Tailwind CSS featuring dark/light mode and smooth animations.",
-    image: "../src/assets/portfolio.png",
+    image: "https://res.cloudinary.com/deudmtuoy/image/upload/v1760691146/Screenshot_2025-10-17_082706_y48c2x.png",
     github: "https://github.com/animeshkhanra2022/Portfolio",
     demo: "https://yourportfolio.vercel.app",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
@@ -15,7 +15,7 @@ const projects = [
     title: "NewsLite",
     description:
       "A simple News application which is use on News API, and it gives us news of various categories like - 'Health', 'Sports', 'Science', 'Technology' and etc.",
-    image: "../src/assets/newsLite.png",
+    image: "https://res.cloudinary.com/deudmtuoy/image/upload/v1760691145/Screenshot_2025-10-17_093015_xersza.png",
     github: "https://github.com/animeshkhanra2022/NewsLite",
     demo: "https://yourweatherapp.netlify.app",
     tech: ["REACT", "API", "BOOTSTRAP"],

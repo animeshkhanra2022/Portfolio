@@ -14,7 +14,8 @@ export default function About() {
         <div className='p-6 sm:grid sm:grid-cols-3 gap-4'>
           <div className='flex justify-center '>
             <img
-              src="../src/assets/profile2.jpg"
+              // src="../src/assets/profile2.jpg"
+              src='https://res.cloudinary.com/deudmtuoy/image/upload/v1760691108/linkedinProfilePicture_vjn2hq.png'
               alt="Image"
               className='w-[290px] md:w-[300px] rounded-2xl shadow-2xl object-cover'
             />

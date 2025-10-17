@@ -14,7 +14,7 @@ export default function Home() {
         link.href = fileUrl;
         link.setAttribute('download', 'My_CV.pdf'); // The name for the downloaded file
         document.body.appendChild(link);
-        // link.click();
+        link.click();
         document.body.removeChild(link);
     };
 
@@ -62,7 +62,8 @@ export default function Home() {
                 className="flex justify-center"
             >
                 <img
-                    src="../src/assets/profile.jpg" // Replace with your actual image path
+                    // src="../src/assets/profile.jpg" // Replace with your actual image path
+                    src='https://res.cloudinary.com/deudmtuoy/image/upload/v1760691110/ChatGPT_Image_Jun_27_2025_11_24_00_AM_cvlayo.png'
                     alt="Animesh Khanra"
                     className="w-[320px] md:w-[400px] rounded-2xl shadow-2xl object-cover"
                 />
