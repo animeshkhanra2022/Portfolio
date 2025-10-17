@@ -1,4 +1,46 @@
-# React + Vite
+<!-- ...existing code... -->
+# PortfolioScratch
+
+A minimal React portfolio built with Vite. This project is a small, portfolio template demonstrating routing, dark mode, and responsive UI using Tailwind CSS.
+
+## What this application does
+- Provides a small portfolio site with navigation and responsive layout.
+- Supports light / dark theme toggle.
+- Uses React Router for page navigation (Home, About, Skills, Projects, Contact).
+- Shows project listings and personal information sections.
+
+## Tech / libraries used
+- Vite (dev server + build)
+- React
+- React Router (react-router-dom)
+- Tailwind CSS (utility-first styling + dark mode)
+- lucide-react (icons)
+- (Optional) ESLint / Prettier (recommended for linting & formatting)
+
+## Pages / categories
+This app contains the following categories (pages):
+- Home — intro / hero
+- About — profile / bio
+- Skills — list of skills / tech stack
+- Projects — project cards / links
+- Contact — contact form / links
+
+## Snapshot placeholders
+Place screenshots in a `screenshots/` folder (recommended). Example images to add:
+- screenshots/home.png — Home / hero
+![Home Screenshot](/public/home.png)
+- screenshots/about.png — About page
+![Home Screenshot](/public/about.png)
+- screenshots/skills.png — Skills page
+![Home Screenshot](/public/skills.png)
+- screenshots/projects.png — Projects list
+![Home Screenshot](/public/projects.png)
+- screenshots/contact.png — Contact page
+![Home Screenshot](/public/contact.png)
+
+
+## How to clone & run
+1. Clone the repo (replace with your repo URL):# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
