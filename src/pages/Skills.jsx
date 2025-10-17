@@ -15,8 +15,11 @@ const Skills = () => {
             id="skills"
             className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 dark:from-[#0B061A] dark:to-[#120C24] px-6 py-20 transition-colors duration-300"
         >
+            {/* Gradient background effect */}
+            <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-purple-600 dark:bg-purple-900 opacity-40 rounded-full blur-[200px]"></div>
+
             {/* Title */}
-            <div className="text-center mb-10">
+            <div className="text-center my-10">
                 <p className="text-gray-500 dark:text-gray-400 mb-1">Know My</p>
                 <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
                     Skills

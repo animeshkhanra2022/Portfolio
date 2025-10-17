@@ -16,9 +16,9 @@ export default function Contact() {
             {/* Gradient background effect */}
             <div className="absolute top-0 left-0 w-[600px] h-[600px] bg-purple-600 opacity-40 rounded-full blur-[200px]"></div>
 
-            <div className="z-10 text-center">
+            <div className="text-center mt-10">
                 <p className="text-gray-400">Get in Touch</p>
-                <h2 className="text-4xl font-extrabold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent mb-8">Contact Me</h2>
+                <h2 className="text-4xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent mb-8">Contact Me</h2>
             </div>
 
             {/* Contact icons */}
