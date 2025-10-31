@@ -8,7 +8,7 @@ const projects = [
       "A personal portfolio built with React and Tailwind CSS featuring dark/light mode and smooth animations.",
     image: "https://res.cloudinary.com/deudmtuoy/image/upload/v1760691146/Screenshot_2025-10-17_082706_y48c2x.png",
     github: "https://github.com/animeshkhanra2022/Portfolio",
-    demo: "https://yourportfolio.vercel.app",
+    demo: "https://portfolio-indol-gamma-77.vercel.app/",
     tech: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
@@ -21,13 +21,13 @@ const projects = [
     tech: ["REACT", "API", "BOOTSTRAP"],
   },
   {
-    title: "OpenBlog",
+    title: "Twixy",
     description:
-      "A responsive blog with local storage support and a clean user interface.It uses Authentication of 'Appwrite', 'Cloudinary' for storage images. ",
+      "A responsive blog with local storage support and a clean user interface. It uses Authentication of 'Appwrite' for store images. ",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800",
-    github: "https://github.com/animeshkhanra2022/OpenBlog",
-    demo: "https://yourtodoapp.vercel.app",
-    tech: ["React", "LocalStorage", "Tailwind", "Appwrite", "Cloudinary"],
+    github: "https://github.com/animeshkhanra2022/Twixy",
+    demo: "https://twixy-one.vercel.app/",
+    tech: ["React", "LocalStorage", "Tailwind", "Appwrite"],
   },
 ];
 
